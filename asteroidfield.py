@@ -2,7 +2,7 @@ import random
 from collections.abc import Callable
 
 import pygame
-from asteroids import Asteroid
+from asteroid import Asteroid
 from constants import *
 
 Edge = tuple[pygame.Vector2, Callable[[float], pygame.Vector2]]
